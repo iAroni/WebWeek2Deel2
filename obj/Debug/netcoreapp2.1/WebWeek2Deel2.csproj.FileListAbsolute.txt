@@ -66,3 +66,4 @@ C:\Users\megas\source\repos\week1opdr2\WebWeek2Deel2\obj\Debug\netcoreapp2.1\Web
 C:\Users\megas\source\repos\week1opdr2\WebWeek2Deel2\obj\Debug\netcoreapp2.1\WebWeek2Deel2.dll
 C:\Users\megas\source\repos\week1opdr2\WebWeek2Deel2\obj\Debug\netcoreapp2.1\WebWeek2Deel2.pdb
 C:\Users\megas\source\repos\week1opdr2\WebWeek2Deel2\obj\Debug\netcoreapp2.1\WebWeek2Deel2.csproj.CopyComplete
+C:\Users\megas\source\repos\week1opdr2\WebWeek2Deel2\obj\Debug\netcoreapp2.1\Razor\Views\HotelBoeking\Overview.g.cshtml.cs

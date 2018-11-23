@@ -20,5 +20,10 @@ namespace WebWeek2Deel2.Controllers
         {
             return View("Geboekt", h);  
         } 
+
+        public IActionResult Overview()
+        {
+            return View();
+        }
     }
 }
