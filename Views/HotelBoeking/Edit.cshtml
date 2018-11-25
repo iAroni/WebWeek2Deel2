@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@using WebWeek2Deel2.Models
+@model Hotel
+
+<h2>Edit</h2>
+
+<text>text: @Model.HotelNaam</text>
+
+<form name="Edit" action="/HotelBoeking/Edit" method="post">
+    <div>HotelNaam: <input name="HotelNaam" type="text" /></div>
+    <div>Datum: <input name="Datum" type="text" /></div>
+    <div>Aantal Personen: <input name="AantalPersonen" type="text" /></div>
+    <div><input type="submit" value="Wijzigen" /></div>
+</form>
+

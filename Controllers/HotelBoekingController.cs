@@ -20,5 +20,17 @@ namespace WebWeek2Deel2.Controllers
         {
             return View("Geboekt", h);  
         } 
+
+        [HttpGet]
+        public IActionResult Edit(Hotel h)
+        {
+            return View("Edit", h);
+        }
+
+        [HttpPost]
+        public IActionResult Gewijzigd(Hotel h)
+        {
+            return View("Gewijzigd", h);
+        }
     }
 }
