@@ -69,7 +69,7 @@ using WebWeek2Deel2.Models;
             WriteLiteral("\r\n<h2>Boeken</h2>\r\n\r\n");
             EndContext();
             BeginContext(110, 328, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8a2c2ae72c04d01a349ea4a484e2723", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4d9888a9897496f84314243cffbca9c", async() => {
                 BeginContext(174, 257, true);
                 WriteLiteral(@"
     <div>HotelNaam: <input name=""HotelNaam"" type=""text"" ></div>

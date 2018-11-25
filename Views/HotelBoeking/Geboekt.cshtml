@@ -8,10 +8,11 @@
 
 <h2>Geboekt</h2>
 
-<div>Er is een nieuwe boeking gedaan</div>
-<div>Naam: @Model.HotelNaam</div>
-<div>Plaats: @Model.Datum</div>
-<div>Aantal Personen: @Model.AantalPersonen</div>
-<form name="Edit" action="/HotelBoeking/Edit" method="get">
+<form name="Edit" action="/HotelBoeking/Edit" method="post">
+    <div>Er is een nieuwe boeking gedaan</div>
+    <div>Naam: @Model.HotelNaam</div>
+    <div>Plaats: @Model.Datum</div>
+    <div>Aantal Personen: @Model.AantalPersonen</div>
+
     <div><input type="submit" value="Wijzigen" /></div>
 </form>
